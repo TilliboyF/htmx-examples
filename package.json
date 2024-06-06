@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "esbuild --bundle --minify --outfile=./public/index.js ./scripts/index.ts"
+  },
+  "devDependencies": {
+    "daisyui": "4.12.2",
+    "esbuild": "0.21.4",
+    "tailwindcss": "^3.4.3",
+    "typescript": "5.4.5"
+  }
+}
